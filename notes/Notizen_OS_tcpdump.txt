@@ -1,0 +1,28 @@
+- GPIO-Pins: Internet Statusanzeige mit Display oder LEDs
+
+- OpenWRT:
+	- Perfekt für Router, Accesspoint, NAS etc.
+	- Vorkonfigurierter Managed Switch
+	- Keine GPIO Unterstützung
+	- Keine HDMI Unterstützung
+
+- Bananian (Debian):
+	- Mehr Konfiguration für Netzwerk nötig
+	- Paketmanager, mehr nachinstallierbare Pakete
+	- GPIO Unterstützung
+	- HDMI Unterstützung
+
+
+http://www.pc-magazin.de/ratgeber/banana-pi-r1-router-anleitung-openwrt-bananian-3021511.html
+http://www.banana-pi.org/
+
+
+
+
+
+
+- tcpdump zum Mitschneiden des Netzwerkverkehrs
+- Kann nicht nur TCP-Pakete mitschneiden
+- Abspeichern in pcap-Dateiformat
+
+http://www.tecmint.com/12-tcpdump-commands-a-network-sniffer-tool/
