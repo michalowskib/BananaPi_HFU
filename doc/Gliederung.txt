@@ -1,0 +1,13 @@
+- Abstract
+	- Englisch
+	- Deutsch
+- Projektübersicht
+	- Kontext
+	- Ziel
+	- Teilnehmer & Rollen
+- BananaPi
+	- Herkunft
+	- Hersteller
+	- Modelle (insb. R1)
+	- Zukünftige Entwicklung
+- Auswahl der Betriebssysteme
