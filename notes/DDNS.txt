@@ -1,0 +1,14 @@
+1. Account unter www.noip.com einrichten und Domain anlegen
+2. Client herunterladen, installieren & konfigurieren:
+
+wget https://www.noip.com/client/linux/noip-duc-linux.tar.gz
+tar xvf noip-duc-linux.tar.gz
+cd noip-2.1.9-1
+make
+sudo make install
+
+Eine config-Datei sollte unter /tmp erstellt werden. Falls dies klappt, den angegebenen mv-Befehl ausführen, wenn nicht:
+
+sudo noip2 -C
+
+3. Autostart einrichten: Anweisungen in README.FIRST, Abschnitt "HOW TO START THE CLIENT" befolgen.
