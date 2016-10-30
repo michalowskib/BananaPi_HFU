@@ -1,0 +1,36 @@
+Status:
+3 interfaces 
+•	Lan
+with DHCP 100-130 
+connected to Vlan1
+
+•	LAN2
+with DHCP 145-160 
+connected to Vlan2
+
+•	Wan
+Not configured
+
+3 Vlans 
+
+•	Vlan1 
+•	Vlan2
+•	Vlan3 (WAN)
+
+Vlan1 Enables connection on Port 0 and 4 (3 and 4 on the BananaPi)
+Vlan2 Enables connection on Port 2 and 1 (3 and 4 on the BananaPi)
+Vlan3 is for WAN port, not configured yet
+
+Computers in each Vlan can ping each other, but not outside their VLAN (ping from Vlan1 to Vlan2 not possible yet)
+Computers in Vlan1 can access the web interface on 192.168.1.(1 or 2) and ones in Vlan2 can’t access it (unintended).
+
+Unsolved problem:
+
+Devices connected to the interface LAN2 acquired IP’s from the Lan pool (100-130)
+After some settings change, they acquire IP‘s from outside the DHCP Range for example 170.
+Changing settings either in the web interface LUCI or manually through the Terminal doesn’t solve the problem. Comparing the settings to example from the internet or what Stefan set up in Bananian, everything seems to be set correct.
+I have a backup with 2 settings>
+1.	VLAN1 and 2 gets ip from interface LAN, other important settings work
+2.	Vlan2 gets ip from a different pool, other important settings work
+
+I will try now to set 1 interface with both VLANS, but this could provide some firewall problems in the future.
